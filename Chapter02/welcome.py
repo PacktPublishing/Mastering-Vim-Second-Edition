@@ -7,7 +7,7 @@ INGREDIENTS = [egg.Egg(), bacon.Bacon(), sausage.Sausage()]
 
 def prepare_ingredient(ingredient):
     has_spam = random.choice([True,  False])
-    ingredient.prepare(has_spam)
+    return ingredient.prepare(has_spam)
 
 def main():
     print('Scene: A cafe. A man and his wife enter.')
