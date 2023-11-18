@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+<c-h>	.vimrc	/^noremap <c-h> <c-w><c-h>$/;"	m
+<c-j>	.vimrc	/^noremap <c-j> <c-w><c-j>$/;"	m
+<c-k>	.vimrc	/^noremap <c-k> <c-w><c-k>$/;"	m
+<c-l>	.vimrc	/^noremap <c-l> <c-w><c-l>$/;"	m
+<f5>	.vimrc	/^noremap <f5> :UndotreeToggle<cr>  " Map Undotree to <F5>.$/;"	m
+<leader>]	.vimrc	/^noremap <leader>] :YcmCompleter GoTo<cr>$/;"	m
+Bacon	kitchen/bacon.py	/^class Bacon(ingredient.Ingredient):$/;"	c
+Egg	kitchen/egg.py	/^class Egg(ingredient.Ingredient):$/;"	c
+INGREDIENTS	welcome.py	/^INGREDIENTS = [egg.Egg(), bacon.Bacon(), sausage.Sausage()]$/;"	v
+Ingredient	kitchen/ingredient.py	/^class Ingredient(object):$/;"	c
+Sausage	kitchen/sausage.py	/^class Sausage(ingredient.Ingredient):$/;"	c
+__init__	kitchen/bacon.py	/^    def __init__(self):$/;"	m	class:Bacon
+__init__	kitchen/egg.py	/^    def __init__(self):$/;"	m	class:Egg
+__init__	kitchen/ingredient.py	/^    def __init__(self, name):$/;"	m	class:Ingredient
+__init__	kitchen/sausage.py	/^    def __init__(self):$/;"	m	class:Sausage
+g:plug_timeout	.vimrc	/^let g:plug_timeout = 300  " Increase vim-plug timeout for YouCompleteMe.$/;"	v
+main	welcome.py	/^def main():$/;"	f
+prepare	kitchen/egg.py	/^    def prepare(self, with_spam=True):$/;"	m	class:Egg
+prepare	kitchen/ingredient.py	/^    def prepare(self, with_spam=True):$/;"	m	class:Ingredient
+prepare_ingredient	welcome.py	/^def prepare_ingredient(ingredient):$/;"	f
