@@ -1,14 +1,14 @@
 " => Chapter 1: Getting Started --------------------------------------- {{{
 
 syntax on                  " Enable syntax highlighting.
-filetype plugin indent on  " Enable file type based indentation.
+filetype plugin indent on  " Enable file type based options.
+
+set nocompatible           " Don't run in backwards compatible mode.
 
 set autoindent             " Respect indentation when starting a new line.
-set expandtab              " Expand tabs to spaces. Essential in Python.
-set tabstop=4              " Number of spaces tab is counted for.
-set shiftwidth=4           " Number of spaces to use for autoindent.
-
-set backspace=2            " Fix backspace behavior on most terminals.
+autocmd filetype python set expandtab    " Expand tabs to spaces (for Python).
+autocmd filetype python set tabstop=4    " Number of spaces tab is counted for.
+autocmd filetype python set shiftwidth=4 " Number of spaces for autoindent.
 
 colorscheme murphy         " Change a colorscheme.
 
@@ -20,7 +20,7 @@ noremap <c-j> <c-w><c-j>
 noremap <c-k> <c-w><c-k>
 noremap <c-l> <c-w><c-l>
 
-set foldmethod=indent           " Indentation-based folding.
+autocmd filetype python set foldmethod=indent " Indentation-based folding.
 
 set wildmenu                    " Enable enhanced tab autocomplete.
 set wildmode=list:longest,full  " Complete till longest string, then open menu.
