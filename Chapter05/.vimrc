@@ -100,6 +100,8 @@ autocmd BufWritePost *.py silent! !ctags -R &
 
 Plug 'mbbill/undotree'
 
+call plug#end()
+
 noremap <f5> :UndotreeToggle<cr>  " Map Undotree to <F5>.
 
 " => Chapter 5: Build, Test, and Execute ------------------------------ {{{
