@@ -4,6 +4,6 @@ def PrepareIngredient(ingredient: string)
   echo ingredient .. ' and spam' 
 enddef 
 
-def PrepareIngredient2(ingredient: string)
+def PrepareIngredient2(ingredient: string): string
   return ingredient .. ' and spam'
 enddef
