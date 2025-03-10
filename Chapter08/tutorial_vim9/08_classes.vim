@@ -1,8 +1,8 @@
 vim9script
 
 class Dish
-  this.ingredient: string
-  this.dish_name: string
+  var ingredient: string
+  var dish_name: string
 
   def PrepareIngredient(has_spam: bool)
     this.dish_name = has_spam ? this.ingredient ..
